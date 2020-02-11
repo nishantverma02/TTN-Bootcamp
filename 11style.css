@@ -1,0 +1,101 @@
+#top{
+width: 1230px;
+border: 2px solid black;
+margin-top: 10px;
+margin-left: 10px;
+
+padding-top: 0px;
+padding-bottom: 20px;
+padding-left: 20px;
+background-color: grey;
+color: white;
+}
+#A{
+	font-size: 30px;
+	color: white;
+}
+
+#new{
+width: 1200px;
+border: 2px solid black;
+background-color: black;
+}
+#C{
+	margin-left: 70px;
+	margin-right: 70px;
+	
+    border: 2px solid black;
+    background-color: black;
+    padding-right: 80px;
+	padding-left: 80px;
+	padding-top :50px;
+	padding-bottom: 50px;
+	text-align: center;
+	color: white;
+}
+#second{
+     background-color: white;
+    
+     margin-left: 10px;
+     margin-right: 10px;
+     margin-bottom: 10px;
+     border: 2px solid white;
+     height:1000px;
+     width:1250px;
+
+}
+#D{
+border: 2px solid white;
+background-color: grey;
+     margin-left: 70px;
+	 margin-right: 70px;
+	 margin-bottom: 40px;
+     border: 2px solid grey;
+     background-color: grey;
+     padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+
+}
+#E{
+  margin-left: 70px;
+  }
+#F{
+	border:2px solid black;
+	margin-left: 70px;
+	margin-right: 70px;
+}
+.grid{
+	margin-top: 10px;
+     margin-left: 70px;
+	display: grid;
+	 grid-template-columns: auto auto auto auto;
+
+}
+.gitems{
+      height:260px;
+      width: 280px;
+     border:2px solid black;
+	 background-color: black;
+	 color:white;
+	 text-align: center;
+	 padding-top: 190px;
+}
+#cr{
+	margin-top: 200px;
+    height: 200px;
+	width:1250px;
+	border: 6px solid black;
+	background-color: black;
+	color:white;
+	text-align: left;
+}
+#final{
+     color:white;
+	text-align: right;
+
+}
+
+
