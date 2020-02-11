@@ -1,0 +1,52 @@
+#top{
+color: blue;
+}
+
+nav{
+
+    text-align: right;
+}
+hr{
+   color: blue;
+
+}
+#for{
+    width: 500px;
+    margin-left: 400px;
+    border: 2px solid grey;
+    background-color: grey;
+    color: brown;
+}
+#A{
+    padding-top: 10px;
+    height: 550px;
+    width: 500px;
+    margin-left: 400px;
+    border: 2px solid grey;
+   text-align: left;
+
+}
+label{
+    margin-left: 20px;
+   }
+textarea,#fir,#Sec,select{
+    margin-left: 20px;
+    width: 90%;
+}
+#text1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#sle2,#ver,#rad,#sle3,#att{
+    margin-top: 10px;
+}
+#sen{
+   
+    height: 60px;
+    width: 500px;
+   
+    border: 2px solid grey;
+    background-color: grey;
+   
+
+}
