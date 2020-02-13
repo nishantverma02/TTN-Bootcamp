@@ -1,0 +1,24 @@
+<html>
+<head>
+<script>
+var p=prompt("Enter String ");
+function palindrome(str) {
+  
+  var re = /[\W_]/g; // or var re = /[^A-Za-z0-9]/g;
+  
+  var lowRegStr = str.toLowerCase().replace(re, '');
+  
+     
+  var reverseStr = lowRegStr.split('').reverse().join(''); 
+ 
+  return reverseStr === lowRegStr;
+}
+if(palindrome(p)==true)
+document.write("palindrome");
+else
+document.write("not palindrome");
+</script>
+
+</head>
+
+</html>
