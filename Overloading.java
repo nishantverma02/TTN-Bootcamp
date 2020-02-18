@@ -23,10 +23,10 @@ public class Overloading
 {
     public static void main(String[] args) {
         Calculator cal=new Calculator();
-        System.out.println(cal.Operation(1,2));
-        System.out.println(cal.Operation(4.5d,6.6d));
-        System.out.println(cal.Operation(4.5,7.4));
-        System.out.println(cal.Operation("Prajjwal","vinod"));
-        System.out.println(cal.Operation("Nishant","Prajjwal","vinod"));
+        System.out.println("adding of two integer number:1 +2="+cal.Operation(1,2));
+        System.out.println("adding of two float:4.5d +6.6d="+cal.Operation(4.5d,6.6d));
+        System.out.println("multipication of two  float :4.5f*7.4f="+cal.Operation(4.5f,7.4f));
+        System.out.println("concation  of two string:prajjwal+vinod="+cal.Operation("Prajjwal","vinod"));
+        System.out.println("cancation of three strinng:nishant+prajjwal+vinod="+cal.Operation("Nishant","Prajjwal","vinod"));
     }
 }
