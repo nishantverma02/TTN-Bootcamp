@@ -4,6 +4,7 @@ interface Bank{
  class SBI implements Bank {
      @Override
      public void getDetails() {
+         System.out.println("details of SBI");
          System.out.println("rate of interest on normal deposit=7.2%");
          System.out.println("types of Loan:-educationloan,homeloan,carloan");
          System.out.println("minimum balance=3000");
@@ -11,6 +12,7 @@ interface Bank{
  }
      class BOI implements Bank{
          public void getDetails() {
+             System.out.println("details of BOI");
              System.out.println("rate of interest on normal deposit=9.2%");
              System.out.println("types of Loan:-educationloan,homeloan,carloan");
              System.out.println("minimum balance=2000");
@@ -20,6 +22,7 @@ interface Bank{
  }
  class ICIC implements Bank{
      public void getDetails() {
+         System.out.println("details of ICIC");
          System.out.println("rate of interest on normal deposit=9.2%");
          System.out.println("types of Loan:-educationloan,homeloan,carloan");
          System.out.println("minimum balance=2000");
