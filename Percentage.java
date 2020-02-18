@@ -55,6 +55,7 @@ public class Percentage {
 
         double upperCaseLetterPercentage = (upperCaseLetters * 100.0) / totalChars ;
 
+
         double lowerCaseLetterPercentage = (lowerCaseLetters * 100.0) / totalChars;
 
         double digitsPercentage = (digits * 100.0) / totalChars;
@@ -66,14 +67,15 @@ public class Percentage {
         //Printing percentage of uppercase letters, lowercase letters, digits and other characters
 
         System.out.println("In '"+inputString+"' : ");
+        System.out.println("Total number of characters="+inputString.length());
 
-        System.out.println("Uppercase letters are "+formatter.format(upperCaseLetterPercentage)+"% ");
+        System.out.println("Uppercase letters are "+formatter.format(upperCaseLetterPercentage)+"%"+"  number of uppercase="+upperCaseLetters );
 
-        System.out.println("Lowercase letters are "+formatter.format(lowerCaseLetterPercentage)+"%");
+        System.out.println("Lowercase letters are "+formatter.format(lowerCaseLetterPercentage)+"%"+"  number of lowercase ="+lowerCaseLetters);
 
-        System.out.println("Digits Are "+formatter.format(digitsPercentage)+"%");
+        System.out.println("Digits Are "+formatter.format(digitsPercentage)+"%"+"   Number of digit"+digits);
 
-        System.out.println("Other Characters Are "+formatter.format(otherCharPercentage)+"%");
+        System.out.println("Other Characters Are "+formatter.format(otherCharPercentage)+"%"+"   numbers of other character"+others);
 
         System.out.println("-----------------------------");
     }
@@ -88,4 +90,5 @@ public class Percentage {
 
     }
 }
+
 
